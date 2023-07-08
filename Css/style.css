@@ -4,17 +4,13 @@
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;
     background-color: #020A18;
 }
 
 .header {
     padding-top: 39px;
     padding-bottom: 39px;
-    display: flex;
-    justify-content: center;
-    gap: 40px;
-    backdrop-filter: blur(100px);
+    text-align: center;
 }
 
 .header__link {
@@ -24,13 +20,13 @@ body {
     font-family: Open Sans;
     font-style: normal;
     line-height: normal;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .body__top{
     margin-top: 160px;
-    display: flex;
-    gap: 128px;
-    justify-content: center;
+    
 }
 .text-top{
     display: flex;
